@@ -11,3 +11,19 @@
 
 
 .whatsapp-float{position:fixed;right:22px;bottom:22px;z-index:20;display:inline-flex;align-items:center;gap:10px;background:#208c53;color:#fff!important;padding:12px 17px;border-radius:999px;box-shadow:0 8px 28px rgba(32,140,83,.32);font:600 12px var(--sans);transition:transform .2s,background .2s}.whatsapp-float:hover{background:#176e40;transform:translateY(-2px)}.whatsapp-float:focus-visible{outline:3px solid #d8b47b;outline-offset:3px}@media(max-width:600px){.whatsapp-float{right:14px;bottom:14px;padding:12px 15px;font-size:11px}}
+
+/* Imágenes mostradas completas, sin fondos ampliados ni recortes */
+.hero-photo{background-image:none!important;background-color:var(--deep)}
+.hero-photo:before,.cake-card>a:first-child:before,.gallery-frame:before{display:none}
+.cake-card>a:first-child{background-image:none!important;background-color:#e9e2e9}
+.cake-card>a:hover img{transform:none}
+
+@media(max-width:600px){
+  .site-header{gap:8px}
+  .brand{font-size:18px;gap:7px}
+  .site-header nav{gap:10px;font-size:10px;white-space:nowrap}
+  .site-header nav a:nth-child(2){display:inline}
+  .cake-grid-featured{grid-template-columns:1fr}
+}
+.cake-grid-featured{grid-template-columns:repeat(2,minmax(0,1fr));max-width:850px;margin:0 auto}
+@media(max-width:600px){.cake-grid-featured{grid-template-columns:1fr}}

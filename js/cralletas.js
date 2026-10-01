@@ -32,36 +32,20 @@ if (orderForm) {
 const galleryImage = document.getElementById('gallery-image');
 if (galleryImage) {
   const photoFiles = [
-    '15 años mesa dulce.jpeg', 'Bodas.jpeg', 'Cocodrilo.jpeg', 'Figuras fondant.jpeg',
-    'WhatsApp Image 2026-09-22 at 6.17.33 PM.jpeg', 'WhatsApp Image 2026-09-22 at 6.25.21 PM.jpeg',
-    'WhatsApp Image 2026-09-22 at 6.30.57 PM (1).jpeg', 'WhatsApp Image 2026-09-22 at 6.30.57 PM (2).jpeg',
-    'WhatsApp Image 2026-09-22 at 6.30.57 PM (4).jpeg', 'WhatsApp Image 2026-09-22 at 6.30.57 PM.jpeg',
-    'WhatsApp Image 2026-09-22 at 6.30.58 PM (1).jpeg', 'WhatsApp Image 2026-09-22 at 6.30.58 PM (2).jpeg',
-    'WhatsApp Image 2026-09-22 at 6.30.58 PM (3).jpeg', 'WhatsApp Image 2026-09-22 at 6.30.58 PM.jpeg',
-    'WhatsApp Image 2026-09-22 at 6.30.59 PM (1).jpeg', 'WhatsApp Image 2026-09-22 at 6.30.59 PM.jpeg',
-    'WhatsApp Image 2026-09-22 at 6.31.00 PM (1).jpeg', 'WhatsApp Image 2026-09-22 at 6.31.00 PM (2).jpeg',
-    'WhatsApp Image 2026-09-22 at 6.31.00 PM.jpeg', 'WhatsApp Image 2026-09-22 at 6.31.01 PM (1).jpeg',
-    'WhatsApp Image 2026-09-22 at 6.31.01 PM (2).jpeg', 'WhatsApp Image 2026-09-22 at 6.31.01 PM (3).jpeg',
-    'WhatsApp Image 2026-09-22 at 6.31.01 PM (4).jpeg', 'WhatsApp Image 2026-09-22 at 6.31.01 PM (5).jpeg',
-    'WhatsApp Image 2026-09-22 at 6.31.01 PM (6).jpeg', 'WhatsApp Image 2026-09-22 at 6.31.01 PM (7).jpeg',
-    'WhatsApp Image 2026-09-22 at 6.31.01 PM (8).jpeg', 'WhatsApp Image 2026-09-22 at 6.31.01 PM.jpeg',
-    'WhatsApp Image 2026-09-22 at 6.31.02 PM (1).jpeg', 'WhatsApp Image 2026-09-22 at 6.31.02 PM (2).jpeg',
-    'WhatsApp Image 2026-09-22 at 6.31.02 PM (3).jpeg', 'WhatsApp Image 2026-09-22 at 6.31.02 PM (4).jpeg',
-    'WhatsApp Image 2026-09-22 at 6.31.02 PM (5).jpeg', 'WhatsApp Image 2026-09-22 at 6.31.02 PM (6).jpeg',
-    'WhatsApp Image 2026-09-22 at 6.31.02 PM.jpeg', 'WhatsApp Image 2026-09-22 at 8.46.57 PM (1).jpeg',
-    'WhatsApp Image 2026-09-22 at 8.46.57 PM (2).jpeg', 'WhatsApp Image 2026-09-22 at 8.46.57 PM (3).jpeg',
-    'WhatsApp Image 2026-09-22 at 8.46.57 PM.jpeg', 'WhatsApp Image 2026-09-22 at 8.46.58 PM (2).jpeg',
-    'WhatsApp Image 2026-09-22 at 8.46.58 PM (3).jpeg', 'WhatsApp Image 2026-09-22 at 8.46.58 PM.jpeg',
-    'WhatsApp Image 2026-09-22 at 8.46.59 PM (1).jpeg', 'WhatsApp Image 2026-09-22 at 8.46.59 PM (2).jpeg',
-    'WhatsApp Image 2026-09-22 at 8.46.59 PM (3).jpeg', 'WhatsApp Image 2026-09-22 at 8.46.59 PM (4).jpeg',
-    'WhatsApp Image 2026-09-22 at 8.46.59 PM.jpeg', 'WhatsApp Image 2026-09-28 at 8.25.22 PM.jpeg',
-    'WhatsApp Image 2026-09-28 at 8.25.29 PM.jpeg'
+    'Foto 1.jpeg', 'foto 2.jpeg', 'Foto 3.jpeg',
+    'WhatsApp Image 2026-09-29 at 3.34.13 PM (1).jpeg', 'WhatsApp Image 2026-09-29 at 3.34.13 PM.jpeg',
+    'WhatsApp Image 2026-09-29 at 3.34.14 PM (1).jpeg', 'WhatsApp Image 2026-09-29 at 3.34.14 PM (2).jpeg',
+    'WhatsApp Image 2026-09-29 at 3.34.14 PM (3).jpeg', 'WhatsApp Image 2026-09-29 at 3.34.14 PM (5).jpeg',
+    'WhatsApp Image 2026-09-29 at 3.34.14 PM (6).jpeg', 'WhatsApp Image 2026-09-29 at 3.34.14 PM (7).jpeg',
+    'WhatsApp Image 2026-09-29 at 3.34.14 PM.jpeg', 'WhatsApp Image 2026-09-29 at 3.34.15 PM (1).jpeg',
+    'WhatsApp Image 2026-09-29 at 3.34.15 PM (2).jpeg', 'WhatsApp Image 2026-09-29 at 3.34.15 PM (4).jpeg',
+    'WhatsApp Image 2026-09-29 at 3.34.15 PM (5).jpeg', 'WhatsApp Image 2026-09-29 at 3.34.15 PM (6).jpeg',
+    'WhatsApp Image 2026-09-29 at 3.34.15 PM (7).jpeg', 'WhatsApp Image 2026-09-29 at 3.34.16 PM.jpeg'
   ];
   const featuredPhotos = {
-    '15 años mesa dulce.jpeg': { alt: 'Mesa dulce preparada para una celebración de quince años', title: 'Una celebración para recordar' },
-    'Bodas.jpeg': { alt: 'Queque decorado para una boda', title: 'Un día para decir sí' },
-    'Cocodrilo.jpeg': { alt: 'Queque personalizado con diseño de cocodrilo', title: 'Diseños personalizados' },
-    'Figuras fondant.jpeg': { alt: 'Queque decorado con una figura de fondant', title: 'Detalles hechos con cariño' }
+    'Foto 1.jpeg': { alt: 'Queque rosa de dos niveles decorado con flores para un cumpleaños', title: 'Una celebración para recordar' },
+    'foto 2.jpeg': { alt: 'Queque cubierto de chocolates de colores y barquillos', title: 'Queques con chocolates' },
+    'Foto 3.jpeg': { alt: 'Queque temático de rock decorado como una chaqueta', title: 'Diseños personalizados' }
   };
   const slides = photoFiles.map(function (file) {
     const featured = featuredPhotos[file];
@@ -82,7 +66,6 @@ if (galleryImage) {
     currentSlide = (index + slides.length) % slides.length;
     galleryImage.src = slides[currentSlide].src;
     galleryImage.alt = slides[currentSlide].alt;
-    galleryImage.parentElement.style.backgroundImage = 'url("' + slides[currentSlide].src + '")';
     document.getElementById('gallery-title').textContent = slides[currentSlide].title;
     document.getElementById('gallery-counter').textContent = String(currentSlide + 1).padStart(2, '0') + ' / ' + String(slides.length).padStart(2, '0');
     thumbnails.forEach(function (thumbnail, thumbnailIndex) {

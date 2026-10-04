@@ -51,8 +51,8 @@ if (galleryImage) {
     const featured = featuredPhotos[file];
     return {
       src: 'Imagenes%20MAMA/' + encodeURIComponent(file),
-      alt: featured ? featured.alt : 'Fotografía de un queque o postre de Cralletas',
-      title: featured ? featured.title : 'Una creación de Cralletas'
+      alt: featured ? featured.alt : 'Fotografía de un queque o postre de CRalletas',
+      title: featured ? featured.title : 'Una creación de CRalletas'
     };
   });
   const thumbnailsContainer = document.getElementById('gallery-thumbnails');

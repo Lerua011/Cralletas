@@ -7,6 +7,7 @@ if (orderForm) {
     const email = String(data.get('correo') || '').trim();
     const date = String(data.get('fecha') || '').trim();
     const portions = String(data.get('porciones') || '').trim();
+    const delivery = String(data.get('entrega') || '').trim();
     const idea = String(data.get('idea') || '').trim();
     const message = [
       'Hola, quiero consultar por un queque.',
@@ -15,6 +16,7 @@ if (orderForm) {
       'Correo: ' + email,
       'Fecha de celebración: ' + (date || 'Aún por definir'),
       'Porciones aproximadas: ' + (portions || 'Aún por definir'),
+      'Entrega: ' + (delivery || 'Aún por definir'),
       'Idea para el queque: ' + idea
     ].join('\n');
     const whatsappUrl = 'https://wa.me/50683466687?text=' + encodeURIComponent(message);

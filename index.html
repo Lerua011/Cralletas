@@ -4,12 +4,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#21152b">
-  <meta name="description" content="CRalletas, Galletas y más: queques artesanales hechos por encargo para celebrar tus momentos especiales.">
-  <title>CRalletas, Galletas y más | Queques hechos para celebrar</title>
+  <meta name="description" content="Queques personalizados, galletas y postres por encargo en Desamparados, San José. Retiro o envío. Pedidos por WhatsApp a CRalletas.">
+  <title>CRalletas | Queques y postres en Desamparados, San José</title>
+  <link rel="canonical" href="https://cralletas.com/">
   <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png">
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="css/cralletas.css?v=20261003-1">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CRalletas, Galletas y más",
+    "url": "https://cralletas.com/",
+    "logo": "https://cralletas.com/favicon.png",
+    "sameAs": [
+      "https://www.instagram.com/cralletas/",
+      "https://www.facebook.com/people/CRalletas-y-m%C3%A1s/100055208263621/"
+    ],
+    "areaServed": {
+      "@type": "Place",
+      "name": "Desamparados, San José, Costa Rica"
+    },
+    "knowsAbout": ["Queques personalizados", "Galletas", "Postres"],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+50683466687",
+      "contactType": "pedidos y consultas",
+      "availableLanguage": "Spanish"
+    }
+  }
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -25,7 +50,7 @@
       <div class="hero-copy">
         <p class="eyebrow"><span></span> Hecho a mano, hecho para compartir</p>
         <h1>Un momento especial merece <em>un queque especial.</em></h1>
-        <p class="hero-intro">Diseñamos queques artesanales para celebrar a tu manera: con sabores deliciosos y detalles que cuentan tu historia.</p>
+        <p class="hero-intro">Diseñamos queques personalizados para celebrar a tu manera. También preparamos galletas y postres por encargo en Desamparados, San José. Puedes retirar o coordinar un envío.</p>
         <div class="hero-actions"><a class="button button-light" href="#queques">Descubre nuestros queques <span>↓</span></a><span class="hero-note">Cada celebración tiene su propio sabor.</span></div>
         <div class="hero-meta"><span>01 / 03</span><span class="meta-line"></span><span>CELEBRACIONES CON SABOR</span></div>
       </div>
@@ -50,10 +75,11 @@
     </section>
 
     <section class="order" id="pedidos"><div class="order-inner">
-      <div class="order-copy"><p class="eyebrow">TU CELEBRACIÓN EMPIEZA AQUÍ</p><h2>¿Ya tienes una idea <em>en mente?</em></h2><p>Cuéntanos un poco y empecemos a imaginar tu queque. Para cotizar con más facilidad, incluye la fecha, la cantidad de porciones y el diseño que te gustaría.</p><div class="order-social"><span>SÍGUENOS</span><a href="https://www.instagram.com/cralletas/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://wa.me/50683466687?text=Hola%2C%20quiero%20consultar%20por%20un%20queque%20para%20una%20celebraci%C3%B3n." target="_blank" rel="noopener noreferrer">WhatsApp ↗</a><a href="https://www.facebook.com/people/CRalletas-y-m%C3%A1s/100055208263621/" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div></div>
+      <div class="order-copy"><p class="eyebrow">TU CELEBRACIÓN EMPIEZA AQUÍ</p><h2>¿Ya tienes una idea <em>en mente?</em></h2><p>Estamos en Desamparados, San José. Puedes retirar tu pedido o consultar por opciones de envío. Para cotizar, cuéntanos la fecha, las porciones y el diseño que imaginas.</p><div class="order-social"><span>SÍGUENOS</span><a href="https://www.instagram.com/cralletas/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://wa.me/50683466687?text=Hola%2C%20quiero%20consultar%20por%20un%20queque%20para%20una%20celebraci%C3%B3n." target="_blank" rel="noopener noreferrer">WhatsApp ↗</a><a href="https://www.facebook.com/people/CRalletas-y-m%C3%A1s/100055208263621/" target="_blank" rel="noopener noreferrer">Facebook ↗</a></div></div>
       <form class="order-form" id="order-form">
         <div class="form-row"><label>Tu nombre<input name="nombre" type="text" placeholder="¿Cómo te llamas?" required></label><label>Correo electrónico<input name="correo" type="email" placeholder="hola@ejemplo.com" required></label></div>
         <div class="form-row"><label>Fecha de celebración<input name="fecha" type="date"></label><label>Porciones aproximadas<select name="porciones"><option value="">Selecciona una opción</option><option>Hasta 10</option><option>11–20</option><option>21–40</option><option>Más de 40</option><option>Aún no lo sé</option></select></label></div>
+        <label>¿Cómo prefieres recibir tu pedido?<select name="entrega" required><option value="">Selecciona una opción</option><option>Retiro en Desamparados</option><option>Envío a domicilio (consultar disponibilidad)</option></select></label>
         <label>Cuéntanos sobre tu queque<textarea name="idea" rows="3" placeholder="Sabor, tema, colores o cualquier detalle que imaginas…" required></textarea></label>
         <button class="button button-accent" type="submit">Preparar mi consulta <span>↗</span></button>
         <p class="form-note" id="form-note" aria-live="polite">Al continuar, se abrirá WhatsApp con tu consulta lista. Revisa el mensaje y presiona Enviar.</p>
@@ -61,8 +87,8 @@
     </div></section>
   </main>
 
-  <footer class="site-footer"><a class="brand footer-brand" href="#inicio"><img class="brand-logo" src="Imagenes%20MAMA/LOGO.jpeg" alt=""><span>CRalletas<small>Galletas y más</small></span></a><p>Queques hechos con cariño para compartir.</p><div class="footer-links"><a href="https://www.instagram.com/cralletas/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://wa.me/50683466687?text=Hola%2C%20quiero%20consultar%20por%20un%20queque%20para%20una%20celebraci%C3%B3n." target="_blank" rel="noopener noreferrer">WhatsApp ↗</a><a href="https://www.facebook.com/people/CRalletas-y-m%C3%A1s/100055208263621/" target="_blank" rel="noopener noreferrer">Facebook ↗</a><a href="galeria.html">Galería ↗</a><a href="#inicio">Volver arriba ↑</a></div><small>CRalletas, Galletas y más · Costa Rica</small></footer>
-  <script src="js/cralletas.js?v=20261003-1"></script>
+  <footer class="site-footer"><a class="brand footer-brand" href="#inicio"><img class="brand-logo" src="Imagenes%20MAMA/LOGO.jpeg" alt=""><span>CRalletas<small>Galletas y más</small></span></a><p>Queques hechos con cariño para compartir.</p><div class="footer-links"><a href="https://www.instagram.com/cralletas/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://wa.me/50683466687?text=Hola%2C%20quiero%20consultar%20por%20un%20queque%20para%20una%20celebraci%C3%B3n." target="_blank" rel="noopener noreferrer">WhatsApp ↗</a><a href="https://www.facebook.com/people/CRalletas-y-m%C3%A1s/100055208263621/" target="_blank" rel="noopener noreferrer">Facebook ↗</a><a href="galeria.html">Galería ↗</a><a href="#inicio">Volver arriba ↑</a></div><small>Desamparados, San José, Costa Rica</small></footer>
+  <script src="js/cralletas.js?v=20261003-2"></script>
 <a class="whatsapp-float" href="https://wa.me/50683466687?text=Hola%2C%20quiero%20consultar%20por%20un%20queque%20para%20una%20celebraci%C3%B3n." target="_blank" rel="noopener noreferrer" aria-label="Escríbenos por WhatsApp">WhatsApp · Consultar un queque ↗</a>
 </body>
 </html>

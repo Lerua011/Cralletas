@@ -29,3 +29,10 @@
 @media(max-width:600px){.cake-grid-featured{grid-template-columns:1fr}}
 .brand-logo{display:block;width:40px;height:40px;flex:0 0 40px;border-radius:50%;object-fit:cover}
 @media(max-width:600px){.brand-logo{width:35px;height:35px;flex-basis:35px}}
+@media(min-width:601px){
+  .hero-photo img{max-width:82%;max-height:82%;object-fit:contain}
+  .cake-card>a:first-child{display:grid;place-items:center;background-image:none!important}
+  .cake-card>a:first-child img{width:86%;height:86%;object-fit:contain;transform:none!important}
+  .gallery-frame{background-image:none!important}
+  .gallery-frame>img{max-width:82%;max-height:82%;object-fit:contain;transform:none!important}
+}

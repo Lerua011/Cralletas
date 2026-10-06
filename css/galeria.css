@@ -22,5 +22,32 @@
 @media(max-width:760px){.gallery-intro{grid-template-columns:1fr;padding:42px 18px 24px}.gallery-intro-main,.gallery-intro-side{padding:30px}.gallery-intro h1{font-size:clamp(38px,9vw,52px)}}
 @media(max-width:600px){.gallery-intro{padding:40px 14px 22px}.gallery-intro-main,.gallery-intro-side{padding:26px}.gallery-intro-side>p:nth-child(2){font-size:24px}}
 
+/* Banner superior unificado en morado oscuro */
+.gallery-intro{background:var(--deep);color:#fffbea}
+.gallery-intro-main,.gallery-intro-side{background:transparent}
+.gallery-intro .eyebrow,.gallery-intro .eyebrow-dark{color:#d9b983}
+.gallery-intro h1,.gallery-intro h1 em{color:#fffbea}
+.gallery-intro-main>p:last-child{color:rgba(255,251,234,.78)}
+
+/* La barra superior es morada; el encabezado y la galería conservan su aspecto claro */
+.site-header{background:var(--deep);color:#fffbea}
+.site-header nav{color:#e2d8e5}
+.site-header .brand small{color:#b9a9bf}
+.site-header .header-cta{color:#fffbea}
+.gallery-intro{background:transparent;color:var(--ink)}
+.gallery-intro-main{background:#fffbea}
+.gallery-intro .eyebrow-dark{color:#987ba0}
+.gallery-intro .gallery-intro-main h1 em{color:#987ba0}
+.gallery-intro-main>p:last-child{color:var(--body)}
+.gallery-intro h1 em{color:#624668}
+.gallery-intro .eyebrow-dark{color:#624668}
+.gallery-intro-side{background:#e8deeb;color:#291b30}
+.gallery-intro-side .eyebrow{color:#624668}
+.gallery-intro-side>a{color:#291b30;border-color:#624668}
+.gallery-intro-side>a span{color:#624668}
+.gallery-intro-main,.gallery-intro-side{background:#fffbea}
+.gallery-intro h1{color:#291b30}
+.gallery-intro h1 em{color:#624668}
+
 
 
